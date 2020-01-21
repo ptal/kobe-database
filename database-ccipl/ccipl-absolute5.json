@@ -1,0 +1,41 @@
+{
+  "bench_exec": "sbatch ccipl_slurm_medium.sh",
+  "input_dir" : "/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/",
+  "output_dir" : "/scratch/LS2N/talbot-p-1/kobe-database/database-ccipl/",
+  "problem_sets" : [
+    { "path": "rcpsp/patterson.rcp/",
+      "timeout": 600 },
+    { "path": "rcpsp/j30.sm/",
+      "timeout": 600 },
+    { "path": "rcpsp-max/sm_j10/",
+      "timeout": 600 },
+    { "path": "rcpsp-max/sm_j20/",
+      "timeout": 600 },
+    { "path": "rcpsp-max/sm_j30/",
+      "timeout": 600 }
+  ],
+  "pipelines" : [
+    <MakeModel: {
+      "decompositions": [
+        {"name":"TimeRD", "description":"Time-resource decomposition of cumulative"}]
+    }>,
+    <MakeModel: {
+      "decompositions": [
+        {"name":"TaskRD", "description":"Task-resource decomposition of cumulative"}]
+    }>,
+    <ModelToAbsolute: {
+      "domains": [
+        { "name": "Octagon", "strategies": ["MSLF_simple", "Max_min_LB", "Min_max_LB", "Max_min_bisect", "Min_max_bisect"] },
+        { "name": "Box", "strategies": ["First_fail_LB"] }
+      ]
+    }>],
+  "csv" : {
+    "fields" : [<ProblemName>, <Nodes>, <Solutions>, <Fails>, <Time : <Sec>>, <Optimum>]
+  },
+  "solvers_config": [
+    { "name": "absolute",
+      "version": "0.6.0",
+      "exec": "",
+      "globals": "" }
+  ]
+}
