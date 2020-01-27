@@ -1,0 +1,29 @@
+{
+  "problem_set_path":
+    "/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/rcpsp/patterson.rcp/",
+  "timeout": 600,
+  "solver_instance": [
+    "AbsoluteSolver",
+    {
+      "version": "0.6.0",
+      "decompositions": [
+        {
+          "name": "TimeRD",
+          "description": "Time-resource decomposition of cumulative"
+        }
+      ],
+      "domain": "Octagon",
+      "strategy": "Min_max_LB"
+    }
+  ],
+  "csv": {
+    "fields": [
+      "ProblemName",
+      "Nodes",
+      "Solutions",
+      "Fails",
+      [ "Time", "Sec" ],
+      "Optimum"
+    ]
+  }
+}
