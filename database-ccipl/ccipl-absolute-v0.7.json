@@ -26,7 +26,7 @@
     <ModelToAbsolute: {
       "domains": [
         { "name": "Octagon", "strategies": ["MSLF_simple", "Max_min_LB", "Min_max_LB", "Max_min_Bisect", "Min_max_Bisect"] },
-        { "name": "Box", "strategies": ["First_fail_LB"] }
+        { "name": "Box", "strategies": ["MSLF_simple"] }
       ]
     }>],
   "csv" : {
@@ -34,7 +34,7 @@
   },
   "solvers_config": [
     { "name": "absolute",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "exec": "",
       "globals": "" }
   ]
