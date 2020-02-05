@@ -1,0 +1,29 @@
+{
+  "problem_set_path":
+    "/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/rcpsp/j30.sm/",
+  "timeout": 600,
+  "solver_instance": [
+    "AbsoluteSolver",
+    {
+      "version": "0.7.0",
+      "decompositions": [
+        {
+          "name": "TaskRD",
+          "description": "Task-resource decomposition of cumulative"
+        }
+      ],
+      "domain": "Octagon",
+      "strategy": "Max_min_LB"
+    }
+  ],
+  "csv": {
+    "fields": [
+      "ProblemName",
+      "Nodes",
+      "Solutions",
+      "Fails",
+      [ "Time", "Sec" ],
+      "Optimum"
+    ]
+  }
+}
