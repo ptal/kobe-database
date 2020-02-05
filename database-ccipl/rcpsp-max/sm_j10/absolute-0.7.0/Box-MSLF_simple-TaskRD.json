@@ -1,0 +1,29 @@
+{
+  "problem_set_path":
+    "/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/rcpsp-max/sm_j10/",
+  "timeout": 600,
+  "solver_instance": [
+    "AbsoluteSolver",
+    {
+      "version": "0.7.0",
+      "decompositions": [
+        {
+          "name": "TaskRD",
+          "description": "Task-resource decomposition of cumulative"
+        }
+      ],
+      "domain": "Box",
+      "strategy": "MSLF_simple"
+    }
+  ],
+  "csv": {
+    "fields": [
+      "ProblemName",
+      "Nodes",
+      "Solutions",
+      "Fails",
+      [ "Time", "Sec" ],
+      "Optimum"
+    ]
+  }
+}
