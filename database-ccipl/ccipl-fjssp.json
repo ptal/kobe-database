@@ -1,0 +1,55 @@
+{
+  "bench_exec": "sbatch ccipl_slurm_medium.sh",
+  "input_dir" : "/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/",
+  "output_dir" : "/scratch/LS2N/talbot-p-1/kobe-database/database-ccipl/",
+  "problem_sets" : [
+    { "path": "fjssp/brandimarte/",
+      "timeout": 600 },
+    { "path": "fjssp/hurink/edata",
+      "timeout": 600 },
+    { "path": "fjssp/hurink/rdata",
+      "timeout": 600 },
+    { "path": "fjssp/hurink/vdata",
+      "timeout": 600 }
+  ],
+  "pipelines" : [
+    <MakeModel: {
+      "decompositions": []
+    }>,
+    <ModelToFzn: {
+      "strategies": [
+        { "plain" : "smallest, indomain_min, complete",
+          "short": "min_lb" }
+      ]
+    }>,
+    <ModelToAbsolute: {
+      "domains": [
+        { "name": "Box", "strategies": ["MSLF_simple"] }
+      ]
+    }>,
+    <Solve:
+      [[{"name": "gecode", "options": []},
+       {"name": "chuffed", "options": []}]]
+    >],
+  "csv" : {
+    "fields" : [<ProblemName>, <Nodes>, <Solutions>, <Fails>, <Time : <Sec>>, <Optimum>]
+  },
+  "solvers_config": [
+    { "name": "absolute",
+      "version": "v0.8.0",
+      "exec": "",
+      "globals": "" },
+    { "name": "gecode",
+      "version": "6.1.0",
+      "exec": "fzn-gecode",
+      "globals": "/usr/share/minizinc/gecode" },
+    { "name": "chuffed",
+      "version": "0.10.3@develop",
+      "exec": "/home/LS2N/talbot-p-1/chuffed/build/fzn-chuffed",
+      "globals": "/home/LS2N/talbot-p-1/chuffed/chuffed/flatzinc/mznlib" },
+    { "name": "mzn2fzn",
+      "version": "2.1.7",
+      "exec": "mzn2fzn",
+      "globals": "" }
+  ]
+}
