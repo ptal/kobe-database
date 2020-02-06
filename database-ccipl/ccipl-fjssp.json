@@ -5,11 +5,11 @@
   "problem_sets" : [
     { "path": "fjssp/brandimarte/",
       "timeout": 600 },
-    { "path": "fjssp/hurink/edata",
+    { "path": "fjssp/hurink/edata/",
       "timeout": 600 },
-    { "path": "fjssp/hurink/rdata",
+    { "path": "fjssp/hurink/rdata/",
       "timeout": 600 },
-    { "path": "fjssp/hurink/vdata",
+    { "path": "fjssp/hurink/vdata/",
       "timeout": 600 }
   ],
   "pipelines" : [
