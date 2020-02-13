@@ -1,0 +1,40 @@
+{
+  "problem_set_path":
+    "/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/jssp/la/",
+  "timeout": 600,
+  "solver_instance": [
+    "FznSolver",
+    {
+      "fzn": {
+        "solver": {
+          "name": "chuffed",
+          "version": "0.10.3@develop",
+          "exec": "/home/LS2N/talbot-p-1/chuffed/build/fzn-chuffed",
+          "globals": "/home/LS2N/talbot-p-1/chuffed/chuffed/flatzinc/mznlib"
+        },
+        "mzn2fzn": {
+          "name": "mzn2fzn",
+          "version": "2.1.7",
+          "exec": "mzn2fzn",
+          "globals": ""
+        },
+        "option": "None",
+        "strategy": {
+          "plain": "smallest, indomain_min, complete",
+          "short": "min_lb"
+        }
+      },
+      "decompositions": []
+    }
+  ],
+  "csv": {
+    "fields": [
+      "ProblemName",
+      "Nodes",
+      "Solutions",
+      "Fails",
+      [ "Time", "Sec" ],
+      "Optimum"
+    ]
+  }
+}

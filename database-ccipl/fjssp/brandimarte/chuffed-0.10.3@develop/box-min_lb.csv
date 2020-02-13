@@ -1,0 +1,11 @@
+problem, nodes, solutions, fails, time, optimum
+Mk01.fjs, 5151454, -1, 2505804, timeout, 91
+Mk02.fjs, 3217138, -1, 2398171, timeout, 107
+Mk03.fjs, 3191678, -1, 1289426, timeout, 419
+Mk04.fjs, 5589328, -1, 2671187, timeout, 180
+Mk05.fjs, 3795202, -1, 1792639, timeout, 313
+Mk06.fjs, 2046751, -1, 1184388, timeout, 301
+Mk07.fjs, 5130418, -1, 3602211, timeout, 561
+Mk08.fjs, 3131058, -1, 1266360, timeout, 547
+Mk09.fjs, 1438202, -1, 740779, timeout, 900
+Mk10.fjs, 2667722, -1, 1245398, timeout, 881

@@ -1,0 +1,40 @@
+{
+  "problem_set_path":
+    "/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/fjssp/brandimarte/",
+  "timeout": 600,
+  "solver_instance": [
+    "FznSolver",
+    {
+      "fzn": {
+        "solver": {
+          "name": "gecode",
+          "version": "6.1.0",
+          "exec": "fzn-gecode",
+          "globals": "/usr/share/minizinc/gecode"
+        },
+        "mzn2fzn": {
+          "name": "mzn2fzn",
+          "version": "2.1.7",
+          "exec": "mzn2fzn",
+          "globals": ""
+        },
+        "option": "None",
+        "strategy": {
+          "plain": "smallest, indomain_min, complete",
+          "short": "min_lb"
+        }
+      },
+      "decompositions": []
+    }
+  ],
+  "csv": {
+    "fields": [
+      "ProblemName",
+      "Nodes",
+      "Solutions",
+      "Fails",
+      [ "Time", "Sec" ],
+      "Optimum"
+    ]
+  }
+}

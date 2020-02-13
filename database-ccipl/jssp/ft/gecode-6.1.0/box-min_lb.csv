@@ -1,0 +1,4 @@
+problem, nodes, solutions, fails, time, optimum
+ft06.jss, 590359402, 6, 295179665, timeout, 60
+ft10.jss, 221980447, 15, 110990029, timeout, 1035
+ft20.jss, 360021924, 3, 180010908, timeout, 1421
