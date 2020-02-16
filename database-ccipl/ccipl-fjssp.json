@@ -3,6 +3,8 @@
   "input_dir" : "/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/",
   "output_dir" : "/scratch/LS2N/talbot-p-1/kobe-database/database-ccipl/",
   "problem_sets" : [
+    { "path": "fjssp/brandimarte/",
+      "timeout": 600 },
     { "path": "fjssp/hurink/edata/",
       "timeout": 600 },
     { "path": "fjssp/hurink/rdata/",
