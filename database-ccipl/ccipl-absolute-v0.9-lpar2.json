@@ -1,0 +1,29 @@
+{
+  "bench_exec": "sbatch ccipl_slurm_short.sh",
+  "input_dir" : "/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/",
+  "output_dir" : "/scratch/LS2N/talbot-p-1/kobe-database/database-ccipl/",
+  "problem_sets" : [
+    { "path": "fjssp/hurink/edata/",
+      "timeout": 2400 }
+  ],
+  "pipelines" : [
+    <MakeModel: {
+      "decompositions": []
+    }>,
+    <ModelToAbsolute: {
+      "domains": [
+        { "name": "LC-PC-BoxOct", "strategies": ["MSLF"] },
+        { "name": "LC-PC-BoxOct2", "strategies": ["MSLF"] },
+        { "name": "Cascade_BoxOct2", "strategies": ["MSLF", "Max_min_Bisect", "Min_max_Bisect", "Anti_first_fail_LB", "MSLF_simple", "Min_max_LB"] }
+      ]
+    }>],
+  "csv" : {
+    "fields" : [<ProblemName>, <Nodes>, <Solutions>, <Fails>, <Time : <Sec>>, <Optimum>]
+  },
+  "solvers_config": [
+    { "name": "absolute",
+      "version": "v0.9.2",
+      "exec": "",
+      "globals": "" }
+  ]
+}
