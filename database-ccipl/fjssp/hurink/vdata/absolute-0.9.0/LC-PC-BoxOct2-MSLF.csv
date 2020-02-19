@@ -1,0 +1,4 @@
+problem, nodes, solutions, fails, time, optimum
+abz5.fjs, 322667, 0, 161274, timeout, none
+abz6.fjs, 387724, 0, 193793, timeout, none
+abz7.fjs, 63450, 0, 31548, timeout, none

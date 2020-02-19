@@ -1,0 +1,24 @@
+{
+  "problem_set_path":
+    "/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/fjssp/hurink/vdata/",
+  "timeout": 600,
+  "solver_instance": [
+    "AbsoluteSolver",
+    {
+      "version": "0.9.0",
+      "decompositions": [],
+      "domain": "LC-PC-BoxOct",
+      "strategy": "MSLF"
+    }
+  ],
+  "csv": {
+    "fields": [
+      "ProblemName",
+      "Nodes",
+      "Solutions",
+      "Fails",
+      [ "Time", "Sec" ],
+      "Optimum"
+    ]
+  }
+}
