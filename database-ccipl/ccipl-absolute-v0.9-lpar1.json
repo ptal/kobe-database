@@ -21,7 +21,8 @@
     <ModelToAbsolute: {
       "domains": [
         { "name": "LC-Box", "strategies": ["MSLF_simple"] },
-        { "name": "LC-Oct", "strategies": ["MSLF", "Max_min_Bisect", "Min_max_Bisect", "Anti_first_fail_LB", "MSLF_simple", "Min_max_LB"] }
+        { "name": "LC-Oct", "strategies": ["MSLF", "Max_min_Bisect", "Min_max_Bisect", "Anti_first_fail_LB", "MSLF_simple", "Min_max_LB"] },
+        { "name": "LC-Oct2", "strategies": ["MSLF", "Max_min_Bisect", "Min_max_Bisect", "Anti_first_fail_LB", "MSLF_simple", "Min_max_LB"] }
       ]
     }>],
   "csv" : {
