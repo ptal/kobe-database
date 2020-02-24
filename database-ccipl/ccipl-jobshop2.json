@@ -1,0 +1,42 @@
+{
+  "bench_exec": "sbatch ccipl_slurm_short.sh",
+  "input_dir" : "/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/",
+  "output_dir" : "/scratch/LS2N/talbot-p-1/kobe-database/database-ccipl/",
+  "problem_sets" : [
+    { "path": "fjssp/hurink/edata/",
+      "timeout": 600 },
+    { "path": "fjssp/hurink/vdata/",
+      "timeout": 600 }
+  ],
+  "pipelines" : [
+    <MznToFzn: {
+      "models": ["model/minizinc/flexible_jobshop.mzn"],
+      "strategies": [
+        { "plain" : "dms minimize objective",
+          "short": "dms" },
+        { "plain" : "dwd minimize objective",
+          "short": "dom_w_deg" }
+      ]
+    }>,
+    <Solve:
+      [[{"name": "gecode", "options": []},
+       {"name": "chuffed", "options": []}]]
+    >],
+  "csv" : {
+    "fields" : [<ProblemName>, <Nodes>, <Solutions>, <Fails>, <Time : <Sec>>, <Optimum>]
+  },
+  "solvers_config": [
+    { "name": "gecode",
+      "version": "6.1.0",
+      "exec": "fzn-gecode",
+      "globals": "/usr/share/minizinc/gecode" },
+    { "name": "chuffed",
+      "version": "0.10.3@develop",
+      "exec": "/home/LS2N/talbot-p-1/chuffed/build/fzn-chuffed",
+      "globals": "/home/LS2N/talbot-p-1/chuffed/chuffed/flatzinc/mznlib" },
+    { "name": "mzn2fzn",
+      "version": "2.1.7",
+      "exec": "mzn2fzn",
+      "globals": "" }
+  ]
+}
