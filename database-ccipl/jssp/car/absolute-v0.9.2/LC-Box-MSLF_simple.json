@@ -1,0 +1,24 @@
+{
+  "problem_set_path":
+    "/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/jssp/car/",
+  "timeout": 2400,
+  "solver_instance": [
+    "AbsoluteSolver",
+    {
+      "version": "v0.9.2",
+      "decompositions": [],
+      "domain": "LC-Box",
+      "strategy": "MSLF_simple"
+    }
+  ],
+  "csv": {
+    "fields": [
+      "ProblemName",
+      "Nodes",
+      "Solutions",
+      "Fails",
+      [ "Time", "Sec" ],
+      "Optimum"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+problem, nodes, solutions, fails, time, optimum
+orb01.jss, 37203, 6, 18396, timeout, 2600
+orb02.jss, 77579, 11, 38577, timeout, 3547
+orb03.jss, 115114, 3, 57350, timeout, 2114
+orb04.jss, 55251, 4, 27422, timeout, 3479
+orb05.jss, 114147, 7, 56867, timeout, 2645
+orb06.jss, 335415, 5, 167493, timeout, 3422
+orb07.jss, 68827, 5, 34210, timeout, 1686
+orb08.jss, 87762, 3, 43674, timeout, 1851
+orb09.jss, 40591, 7, 20088, timeout, 3510
+orb10.jss, 111997, 10, 55790, timeout, 3048

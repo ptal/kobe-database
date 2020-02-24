@@ -1,0 +1,9 @@
+problem, nodes, solutions, fails, time, optimum
+car1.fjs, 25599, 4, 12661, timeout, 8650
+car2.fjs, 51556, 3, 25620, timeout, 8575
+car3.fjs, 21288, 1, 10481, timeout, 10122
+car4.fjs, 19450, 2, 9543, timeout, 9948
+car5.fjs, 39009, 2, 19299, timeout, 9202
+car6.fjs, 24546, 1, 12149, timeout, 11579
+car7.fjs, 37569, 2, 18711, timeout, 7902
+car8.fjs, 28327, 1, 14052, timeout, 9963

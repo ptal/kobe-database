@@ -1,3 +1,45 @@
 problem, nodes, solutions, fails, time, optimum
 abz5.fjs, 421259, 0, 210525, timeout, none
 abz6.fjs, 366753, 0, 183276, timeout, none
+/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/fjssp/hurink/vdata/abz7.fjs: Out of memory
+/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/fjssp/hurink/vdata/abz8.fjs: Out of memory
+/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/fjssp/hurink/vdata/abz9.fjs: Out of memory
+car1.fjs, 636959, 0, 318426, timeout, none
+car2.fjs, 641090, 0, 320491, timeout, none
+car3.fjs, 485383, 0, 242633, timeout, none
+car4.fjs, 571819, 0, 285849, timeout, none
+car5.fjs, 768797, 0, 384339, timeout, none
+car6.fjs, 342709, 0, 171283, timeout, none
+car7.fjs, 743225, 0, 371564, timeout, none
+car8.fjs, 639155, 0, 319509, timeout, none
+la01.fjs, 1125120, 0, 562511, timeout, none
+la02.fjs, 897182, 0, 448541, timeout, none
+la03.fjs, 989305, 0, 494603, timeout, none
+la04.fjs, 907084, 0, 453493, timeout, none
+la05.fjs, 922640, 0, 461269, timeout, none
+la06.fjs, 585500, 0, 292673, timeout, none
+la07.fjs, 537380, 0, 268614, timeout, none
+la08.fjs, 478505, 0, 239176, timeout, none
+la09.fjs, 416418, 0, 208133, timeout, none
+la10.fjs, 477645, 0, 238748, timeout, none
+la11.fjs, 238102, 0, 118944, timeout, none
+la12.fjs, 317100, 0, 158443, timeout, none
+la13.fjs, 280501, 0, 140139, timeout, none
+la14.fjs, 315356, 0, 157573, timeout, none
+la15.fjs, 278420, 0, 139107, timeout, none
+la16.fjs, 379336, 0, 189567, timeout, none
+la17.fjs, 436433, 0, 218112, timeout, none
+la18.fjs, 282701, 0, 141250, timeout, none
+la19.fjs, 349504, 0, 174648, timeout, none
+la20.fjs, 343740, 0, 171769, timeout, none
+la21.fjs, 215146, 0, 107422, timeout, none
+la22.fjs, 220088, 0, 109889, timeout, none
+la23.fjs, 229371, 0, 114529, timeout, none
+la24.fjs, 236699, 0, 118199, timeout, none
+la25.fjs, 205379, 0, 102536, timeout, none
+la26.fjs, 126591, 0, 63096, timeout, none
+la27.fjs, 82696, 0, 41148, timeout, none
+la28.fjs, 135350, 0, 67476, timeout, none
+la29.fjs, 59423, 0, 29512, timeout, none
+la30.fjs, 71648, 0, 35624, timeout, none
+/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/fjssp/hurink/vdata/la31.fjs: Out of memory

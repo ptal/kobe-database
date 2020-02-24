@@ -1,0 +1,9 @@
+problem, nodes, solutions, fails, time, optimum
+car1.fjs, 12741, 0, 6213, 3.25s, unsat
+car2.fjs, 11988, 0, 5820, 2.81s, unsat
+car3.fjs, 13770, 0, 6698, 4.17s, unsat
+car4.fjs, 14445, 0, 7021, 3.55s, unsat
+car5.fjs, 10865, 0, 5275, 2.72s, unsat
+car6.fjs, 12938, 0, 6315, 4.62s, unsat
+car7.fjs, 10757, 0, 5288, 1.20s, unsat
+car8.fjs, 10975, 0, 5351, 2.31s, unsat
