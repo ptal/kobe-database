@@ -10,7 +10,7 @@
   ],
   "pipelines" : [
     <MznToFzn: {
-      "models": ["model/minizinc/flexible_jobshop.mzn"],
+      "models": ["/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/model/minizinc/flexible_jobshop.mzn"],
       "strategies": [
         { "plain" : "dms minimize objective",
           "short": "dms" },

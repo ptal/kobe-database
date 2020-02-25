@@ -6,7 +6,7 @@
     { "path": "fjssp/hurink/edata/",
       "timeout": 600 },
     { "path": "fjssp/hurink/rdata/",
-      "timeout": 600 },
+      "timeout": 600 }
   ],
   "pipelines" : [
     <MakeModel: {
