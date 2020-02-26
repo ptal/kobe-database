@@ -1,0 +1,4 @@
+problem, nodes, nodes_before_last_sol, solutions, fails, time, optimum
+abz5.fjs, 45077, 650, 20, 22422, timeout, 3249
+abz6.fjs, 34466, 229, 5, 17138, timeout, 2974
+/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/fjssp/hurink/vdata/abz7.fjs: Out of memory

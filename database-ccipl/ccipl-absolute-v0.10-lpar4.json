@@ -6,6 +6,8 @@
     { "path": "fjssp/hurink/edata/",
       "timeout": 600 },
     { "path": "fjssp/hurink/rdata/",
+      "timeout": 600 },
+    { "path": "fjssp/hurink/vdata/",
       "timeout": 600 }
   ],
   "pipelines" : [
@@ -14,8 +16,8 @@
     }>,
     <ModelToAbsolute: {
       "domains": [
-        { "name": "LC-PC-BoxOct3", "strategies": ["MSLF", "Min_max_LB"] },
-        { "name": "Cascade_BoxOct4", "strategies": ["MSLF", "Min_max_LB"] }
+        { "name": "LC-PC-BoxOct3", "strategies": ["MSLF", "MSLF_simple", "Min_max_LB"] },
+        { "name": "Cascade_BoxOct4", "strategies": ["MSLF", "MSLF_simple", "Min_max_LB"] }
       ]
     }>],
   "csv" : {

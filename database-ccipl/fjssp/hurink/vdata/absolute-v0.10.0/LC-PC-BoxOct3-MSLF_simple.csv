@@ -1,0 +1,10 @@
+problem, nodes, nodes_before_last_sol, solutions, fails, time, optimum
+abz5.fjs, 26409, 200, 1, 13107, timeout, 3711
+abz6.fjs, 9151, 623, 12, 4472, timeout, 2810
+abz7.fjs, 375, 0, 0, 0, timeout, none
+abz8.fjs, 351, 0, 0, 0, timeout, none
+abz9.fjs, 355, 0, 0, 0, timeout, none
+car1.fjs, 80910, 123, 2, 40402, timeout, 15344
+car2.fjs, 87940, 119, 3, 43922, timeout, 13746
+car3.fjs, 54986, 416, 7, 27435, timeout, 16922
+car4.fjs, 126830, 994, 12, 63359, timeout, 13105
