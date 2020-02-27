@@ -1,0 +1,41 @@
+{
+  "problem_set_path":
+    "/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/data/fjssp/hurink/rdata/",
+  "timeout": 600,
+  "solver_instance": [
+    "MznSolver",
+    {
+      "fzn": {
+        "solver": {
+          "name": "chuffed",
+          "version": "0.10.4@develop",
+          "exec": "/home/LS2N/talbot-p-1/chuffed/build/fzn-chuffed",
+          "globals": "/home/LS2N/talbot-p-1/chuffed/chuffed/flatzinc/mznlib"
+        },
+        "mzn2fzn": {
+          "name": "mzn2fzn",
+          "version": "2.1.7",
+          "exec": "mzn2fzn",
+          "globals": ""
+        },
+        "option": "None",
+        "strategy": {
+          "plain": "dwd minimize objective",
+          "short": "dom_w_deg"
+        }
+      },
+      "model":
+        "/home/LS2N/talbot-p-1/absolute-project/kobe-rcpsp/model/minizinc/flexible_jobshop.mzn"
+    }
+  ],
+  "csv": {
+    "fields": [
+      "ProblemName",
+      "Nodes",
+      "Solutions",
+      "Fails",
+      [ "Time", "Sec" ],
+      "Optimum"
+    ]
+  }
+}
